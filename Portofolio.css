@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@600&family=Fjalla+One&display=swap');
+
+*{
+    font-family: 'Changa', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+header{
+    width: 100%;
+    background-color: #E3E4E6;
+    position: fixed;
+    z-index: 990;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: #5778A3;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+#c11 a{
+    text-decoration: none;
+    color: #5778A3;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.6em;
+    margin-left: 20px;
+}
+#c11 a:hover{
+    color: blueviolet;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(./images/emile-perron-xrVDYZRGdw4-unsplash\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #E3E4E6;
+    font-size:1.5 ;
+    margin-bottom: 10px;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #5584bd;
+    font-size: 2em;
+    font-weight: 700;
+}
+.main h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    color: #E3E4E6;
+    font-size: 1.5em;
+}
+.mainbutton{
+    color: #E3E4E6;
+    background-color: #5778A3;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 1em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.mainbutton:hover{
+background-color: #455b77;
+transform: scale(1.1);
+}
+.social a{
+    color: #E3E4E6;
+    font-size: 1.9em;
+    padding-right: 30px;
+}
+.title{
+    display: flex ;
+    justify-content: center;
+    color: #5778A3;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 22.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%) ;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #5778A3;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #5778A3;
+    font-weight: 700;
+    margin: 10px;
+    font-size: 1.8em;
+}
+.c11{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #5778A3;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+.footer{
+    background-color:#5778A3; 
+    color: #E3E4E6;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    font-size: 1.3em;
+    font-weight: 600;
+
+}
+.footer-text span{
+    color: #E3E4E6;
+}
+
+@media (max-width:1012px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+
+    }
+    .title{
+        font-size: 1.8em;
+    }
+
+}
